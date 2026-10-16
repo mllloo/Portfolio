@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "@fontsource/sora/400.css";
 import "@fontsource/sora/600.css";
 import "./globals.css";
+import "./responsive.css";
 import GlassCursor from "./components/GlassCursor";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
